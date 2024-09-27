@@ -1,6 +1,7 @@
 @use 'config/reset';
 @use 'config/variaveis';
 @use 'sass:math';
+@use 'sass:color';
 
 @mixin elementoLadoALado() {
     margin-top: 40px;
@@ -90,7 +91,8 @@ section {
     text-decoration: none;
 
     &:hover {
-        background-color: lighten(variaveis.$corButtonHover, 5%);
+        background-color: color.scale(variaveis.$corButtonHover, $lightness: 10%);
+        background-color: color.adjust(variaveis.$corButtonHover, $lightness: 5%);
     }
 }
 

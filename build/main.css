@@ -73,7 +73,8 @@ section {
   text-decoration: none;
 }
 .product-button:hover {
-  background-color: #5fd64c;
+  background-color: rgb(93.9, 213.6, 75);
+  background-color: rgb(94.5548780488, 213.7682926829, 75.7317073171);
 }
 
 @media screen and (max-width: 1023px) {
@@ -94,4 +95,4 @@ section {
   }
 }
 
-
+/*# sourceMappingURL=main.css.map */
